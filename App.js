@@ -67,13 +67,15 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     marginTop: 30,
-    backgroundColor: "white",
+    backgroundColor: "dodgerblue",
     alignItems: "center",
     justifyContent: "center",
   },
   title: {
-    color: "pink",
+    color: "black",
     fontSize: 30,
+    fontWeight: "bold",
+    textAlign: "center",
   },
   centeredView: {
     flex: 1,
@@ -97,7 +99,7 @@ const styles = StyleSheet.create({
     elevation: 5,
   },
   openButton: {
-    backgroundColor: "#F194FF",
+    backgroundColor: "blue",
     borderRadius: 20,
     padding: 10,
     elevation: 2,
